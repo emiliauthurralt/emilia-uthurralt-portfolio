@@ -1,0 +1,29 @@
+[
+        {
+        "id":"cyberland",
+        "alttext":"",
+        "titulo":"Cyberland",
+        "descrp":"Web-mobile app de reservas para un bar con temática de arcade.",
+        "boton":"btncyb",
+        "url":"cyberland",
+        "clases":"indProy div1 linkHome"
+        },
+        {
+        "id":"aldi",
+        "alttext":"",
+        "titulo":"AlDi",
+        "descrp":"Recurso para la alfabetización digital destinada a adultos mayores",
+        "boton":"btnaldi",
+        "url":"aldi",
+        "clases":"indProy div3"
+        },
+        {
+                "id":"celeste",
+                "alttext":"",
+                "titulo":"Celeste",
+                "descrp":"Estudio de la usabilidad del juego con diferentes controles.",
+                "boton":"btncel",
+                "url":"celeste",
+                "clases":"indProy div2"
+                }
+]

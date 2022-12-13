@@ -1,0 +1,158 @@
+/*ALDI*/
+.headerAldi{
+    background-color: #FEEBEB;
+    width: 900px;
+    min-height: 570px;
+}
+.headerAldi h1{
+    font-weight: 400;
+    font-size: 38px;
+}
+.headerAldi h2{
+    font-size: 30px;
+}
+.headerAldi h3{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.botonAldi{
+    width: 250px;
+    padding: 14px 26px;
+    background: #F9AE91;
+    border: 1px solid #1F1F1F;
+    color: #fffcfc;
+    border-radius: 7px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    box-shadow: 0px 2.98413px 2.98413px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+}
+
+.divIntroAldi {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "gifCuaderno role1";
+}
+
+.gifCuaderno { grid-area: gifCuaderno; }
+
+.roleAldi { grid-area: role1; }
+
+.imgBordeRosa{
+    border: 5px solid #FCDFD4
+}
+
+.gridContexto {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "gifCelular1 explicacionAD";
+}
+
+.gifCelular1 { 
+    text-align: center;
+    grid-area: gifCelular1; 
+}
+
+.explicacionAD { 
+    grid-area: explicacionAD; 
+    display: flex;
+    align-items: center;
+}
+
+.explicacionAD p{
+    text-align: center;
+    background-color: #FCDFD4;
+    width: 245px;
+    padding: 10px 15px;
+
+}
+
+.painPointGrid {  display: grid;
+    grid-template-columns: 0.1fr 1.9fr;
+    grid-template-rows: 0.6fr 0.6fr 1.8fr;
+    gap: 30px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "smileAlDi textoSmile"
+    "sadAlDi textoSad"
+    "contextoDivConocimiento contextoDivConocimiento";
+    width: 650px;
+}
+
+.smileAlDi { grid-area: smileAlDi; }
+
+.sadAlDi { grid-area: sadAlDi; }
+
+.textoSmile { grid-area: textoSmile; }
+
+.textoSad { grid-area: textoSad; }
+
+.contextoDivConocimiento { grid-area: contextoDivConocimiento; }
+
+
+.smileAlDi { grid-area: smileAlDi; }
+
+.sadAlDi { grid-area: sadAlDi; }
+
+.textoSmile { grid-area: textoSmile; }
+
+.textoSad { grid-area: textoSad; }
+
+.textCenter{
+    text-align: center;
+}
+
+.coloresGridAldi {  display: grid;
+    grid-template-columns: 0.3fr 1.4fr 1.3fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "xDiv xDiv2 explicacionVision"
+    "tickDiv tickDiv2 explicacionVision";
+}
+
+.xDiv { 
+    grid-area: xDiv; 
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.tickDiv { 
+    grid-area: tickDiv; 
+    text-align: right;
+    padding-right: 10px;
+    margin-top: -42px;
+    scale: 1.2;
+}
+
+.xDiv2 { grid-area: xDiv2; }
+
+.tickDiv2 { grid-area: tickDiv2; }
+
+.explicacionVision { 
+    grid-area: explicacionVision; 
+    width:269px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    line-height: 22.68px;
+}
+
+.gifWidth{
+    width: 355px;
+}

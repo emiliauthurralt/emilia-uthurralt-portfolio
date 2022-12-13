@@ -1,0 +1,171 @@
+
+/*///////////PROYECTOS////////////*/
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.divSec{
+    text-align: center;
+}
+.divSec h2{
+    font-size: 32px;
+}
+#gridproy img{
+    max-height: 315.75px;
+}
+#gridproy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.indProy{ /*PROYECTO INDIVIDUAL*/
+    text-align: center;
+    margin: 20px 40px;
+}
+.indProy h3{
+    font-size: 24px;
+    margin: 5px;
+}
+.indProy a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+.indProy p{
+    font-size: 14px;
+    margin: 5px auto 20px auto;
+    width: 256px;
+}
+Link{
+    
+}
+
+.hover-1 {
+    --c: red; 
+    --s: .15em;
+    
+    line-height:1.1em;
+    padding-bottom: calc(2.1*var(--s));
+    background: 
+    conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+        left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+        left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+    -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+    transition: .5s;
+}
+.hover-1:hover {
+    --_p: 100%;
+
+}
+
+.tecnologias {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "icFigma icXd icCorel icPs"
+        "icHTML icCSS icJS icReact";
+    
+}
+
+.icFigma { grid-area: icFigma; }
+
+.icXd { grid-area: icXd; }
+
+.icCorel { grid-area: icCorel; }
+
+.icPs { grid-area: icPs; }
+
+.icHTML { grid-area: icHTML; }
+
+.icCSS { grid-area: icCSS; }
+
+.icJS { grid-area: icJS; }
+
+.icReact { grid-area: icReact; }
+
+.tecnologias img{
+    height: 80px;
+}
+.tecnologias div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tecnologias p{
+    text-align: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bPrueba{
+    border: red 2px solid;
+}
+
+.descAbout{
+    width: 900px;
+
+}
+
+.videojuegosAbout {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr;
+    gap: 0px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "favoritosJ jugandoJ"
+    "fJuegos cJuegos";
+    width: 900px;
+}
+
+.videojuegosAbout img{
+    height: 150px;
+}
+
+.favoritosJ { grid-area: favoritosJ; }
+
+.jugandoJ { grid-area: jugandoJ; }
+
+.cJuegos {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "hk sp"
+    "ox rl";
+    grid-area: cJuegos;
+}
+
+.hk { grid-area: hk; }
+
+.sp { grid-area: sp; }
+
+.ox { grid-area: ox; }
+
+.rl { grid-area: rl; }
+
+.fJuegos {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "omori antichamber";
+    grid-area: fJuegos;
+}
+
+.omori { grid-area: omori; }
+
+.antichamber { grid-area: antichamber; }
