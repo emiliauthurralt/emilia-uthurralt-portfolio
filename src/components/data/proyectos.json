@@ -6,7 +6,7 @@
         "descrp":"Web-mobile app de reservas para un bar con temática de arcade.",
         "boton":"btncyb",
         "url":"cyberland",
-        "clases":"indProy div1 linkHome"
+        "clases":"indProy linkHome"
         },
         {
         "id":"aldi",
@@ -15,15 +15,24 @@
         "descrp":"Recurso para la alfabetización digital destinada a adultos mayores",
         "boton":"btnaldi",
         "url":"aldi",
-        "clases":"indProy div3"
+        "clases":"indProy"
         },
         {
-                "id":"celeste",
-                "alttext":"",
-                "titulo":"Celeste",
-                "descrp":"Estudio de la usabilidad del juego con diferentes controles.",
-                "boton":"btncel",
-                "url":"celeste",
-                "clases":"indProy div2"
-                }
+        "id":"derechos",
+        "alttext":"",
+        "titulo":"Conozco mis derechos para poder protegerlos",
+        "descrp":"Aprendé tus derechos como niño, niña o adolescente en Argentina",
+        "boton":"btnder",
+        "url":"derechos",
+        "clases":"indProy"
+        },
+        {
+        "id":"celeste",
+        "alttext":"",
+        "titulo":"Celeste",
+        "descrp":"Estudio de la usabilidad del juego con diferentes controles.",
+        "boton":"btncel",
+        "url":"",
+        "clases":"indProy"
+        }
 ]

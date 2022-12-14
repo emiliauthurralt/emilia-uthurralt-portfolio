@@ -21,8 +21,8 @@ section{
     justify-content: center;
 }
 .indProy{ /*PROYECTO INDIVIDUAL*/
-    text-align: center;
     margin: 20px 40px;
+    width: 400px;
 }
 .indProy h3{
     font-size: 24px;
@@ -38,9 +38,7 @@ section{
     margin: 5px auto 20px auto;
     width: 256px;
 }
-Link{
-    
-}
+
 
 .hover-1 {
     --c: red; 

@@ -156,3 +156,29 @@
 .gifWidth{
     width: 355px;
 }
+
+/*TO DELETE*/
+.imgDer{
+    width: 900px;
+    margin-top: 10px;
+}
+.navSpace{
+    margin-top: 60px;
+}
+.btnDer{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    left: 600px;
+    margin-top: 400px;
+    background: #84FF9F;
+    border: 1px dashed #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+    padding: 15px;
+    font-weight: 600;
+}
+.imgDer2{
+    z-index: 1;
+}
