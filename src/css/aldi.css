@@ -182,3 +182,15 @@
 .imgDer2{
     z-index: 1;
 }
+.btnCopyrightDer{
+    background: #84FF9F;
+    border: 1px dashed #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-weight: 600;
+}
+.marginBottom20{
+    margin-bottom: 20px;
+}

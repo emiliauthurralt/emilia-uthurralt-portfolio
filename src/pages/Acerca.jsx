@@ -1,29 +1,27 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Tecnologias from '../components/About/Tecnologias'
 import Games from '../components/About/Games'
-import stylesheet from '../css/home.css'
+import stylesheet from '../css/about.css'
+import Contacto from '../components/About/Contacto'
 <style>
     {stylesheet}
 </style>
 
 function Acerca() {
-  return (
+return (
     <>
-        <header className='headerHome'>
-            <h1 className='h1Home'>Emilia <span className='hover-1'>Uthurralt</span></h1>
-        </header>
-        <section className="flexbox">
-            <div className="descAbout bPrueba">
-                <p className='aLeft'>UX/UI Designer</p>
-                <p>Gamer de teclado</p>
-            </div>
-            
-        </section>
+        
+            <Contacto/>    
         <section className="divSec">
-            <h2>Tecnologías que manejo</h2>
+            <h2 className='acercaH2'>Tecnologías que manejo</h2>
             <Tecnologias/>
         </section>
-        <Games/>
+        <section className='divSec'>
+            <h2>Intereses</h2>
+            <Games/>
+        </section>
+        
     </>
 )
 }

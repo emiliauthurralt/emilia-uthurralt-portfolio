@@ -17,6 +17,7 @@ return (
             <img  src="/images/Derechos/5.png" alt="" className='imgDer' />
             <img  src="/images/Derechos/6.png" alt="" className='imgDer' />
         </div>
+        <p className='marginBottom20'>Images from: <a href="https://icons8.com/illustrations/style--bonbon" target='_blank' className='btnCopyrightDer'>Icons8</a></p>
     </section>
     
     </>

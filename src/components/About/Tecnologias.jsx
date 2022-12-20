@@ -3,7 +3,8 @@ import React from 'react'
 export default function Tecnologias() {
   return (
     <section className="flexbox">
-        <div class="tecnologias">
+        <h3 className='parrafo1'>Para diseñar ↓ </h3>
+        <div class="tecnologias margin20">
             <div class="icFigma">
                 <img src="./images/About/image 1.png" alt="" />
                 <p>Figma</p>
@@ -37,6 +38,7 @@ export default function Tecnologias() {
                 <p>React JS</p>
             </div>
         </div>
+        <h3 className='parrafo1'>Para programar ↑</h3>
     </section>
     )
 }
