@@ -37,7 +37,7 @@
 .divIntroAldi {  display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 0px 0px;
+    gap: 0px 55px;
     grid-auto-flow: row;
     grid-template-areas:
     "gifCuaderno role1";
@@ -45,7 +45,9 @@
 
 .gifCuaderno { grid-area: gifCuaderno; }
 
-.roleAldi { grid-area: role1; }
+.roleAldi { grid-area: role1;
+    align-self: center;
+}
 
 .imgBordeRosa{
     border: 5px solid #FCDFD4
@@ -194,3 +196,4 @@
 .marginBottom20{
     margin-bottom: 20px;
 }
+

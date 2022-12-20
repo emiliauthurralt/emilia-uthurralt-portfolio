@@ -12,7 +12,7 @@ export default function IntroAlDi() {
             </a>
             <div class="divIntroAldi margin10">
                 <div class="gifCuaderno">
-                  <img src="images/Aldi/gifs/" alt="gif1" className='imgBordeRosa' />
+                  <img src="images/Aldi/gifs/cuaderno.gif" alt="gif1" className='imgBordeRosa gifWidth' />
                 </div>
                 <div class="roleAldi parrafo3">
                   <p>Tipo: Proyecto personal<br/>

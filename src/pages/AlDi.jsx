@@ -5,6 +5,7 @@ import stylesheet from '../css/aldi.css'
 import Contexto from '../components/AlDi/Contexto'
 import WebsiteSeniorFriendly from '../components/AlDi/WebsiteSeniorFriendly'
 import Ideate from '../components/AlDi/Ideate'
+import Cierre from '../components/AlDi/Cierre'
 
 <style>{stylesheet}</style>
 export default function AlDi() {
@@ -15,6 +16,7 @@ return (
         <Contexto/>
         <WebsiteSeniorFriendly/>
         <Ideate/>
+        <Cierre/>
     </>
 )
 }
