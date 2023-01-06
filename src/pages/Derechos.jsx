@@ -8,7 +8,7 @@ return (
     <section className="flexbox navSpace">
         <div className="secCyb">
             <img  src="/images/Derechos/1.png" alt="" className='imgDer' />
-            <div>
+            <div className='relativeDer'>
                 <img  src="/images/Derechos/2.png" alt="" className='imgDer imgDer2'  />
                 <a href="https://www.figma.com/proto/a1pXOqSEepeJvStQ1S6pmV/Conozco-mis-derechos?node-id=102%3A14&viewport=606%2C948%2C0.42&scaling=scale-down&starting-point-node-id=123%3A386" target='_blank' rel="noreferrer" className='btnDer'>Prototipo de alta fidelidad</a>
             </div>

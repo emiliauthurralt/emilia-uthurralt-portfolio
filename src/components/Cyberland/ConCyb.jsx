@@ -7,7 +7,7 @@ return (
             <h2>Conclusiones</h2>
             <p className="parrafo2 margin10">
                 Lo que aprendí desarrollando este proyecto:</p>
-                <div class="conCybGrid center margin10">
+                <div class="conCybGrid  margin10">
                     <div class="div1CG">
                         <img src="images/Cyb/tick.png" alt="tick de color turquesa con bordes redondeados." />
                     </div>

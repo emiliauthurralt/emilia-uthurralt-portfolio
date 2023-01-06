@@ -5,7 +5,7 @@ return (
     <section className="flexbox">
         <div className="secCyb">
             <h2 className="margin10">Otras características</h2>
-            <div class="featuresCyb center margin10">
+            <div class="featuresCyb margin10">
                 <div class="div1FC center">
                     <h4 className='parrafo2'>Juegos disponibles</h4>
                     <img src="images/Cyb/Portfolio/Juegosdisp.gif" alt="" className='margin10' />

@@ -167,11 +167,16 @@
 .navSpace{
     margin-top: 60px;
 }
+.relativeDer{
+    position: relative;
+}
 .btnDer{
     position: absolute;
+    width: 200px;
     z-index: 2;
     text-align: center;
-    left: 600px;
+    margin-left: -100px;
+    left: 450px;
     margin-top: 400px;
     background: #84FF9F;
     border: 1px dashed #000000;
