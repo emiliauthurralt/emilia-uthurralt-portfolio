@@ -1,0 +1,36 @@
+.bordeCeleste{
+    border: #8ccce4 solid 2px;
+    padding: 10px;
+}
+
+.celesteCase h1{
+    font-size: 40px;
+    }
+.celesteCase h2{
+        font-size: 25px;
+    }
+.celesteCase p{
+        font-size: 20px;
+        line-height: 1.5;
+        
+    }
+.celesteCase img{
+        width: 800px;
+    }
+
+
+#headerCelesteImg{
+    width: 200px;
+}
+.flexCeleste{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#celeste3{
+    width: 500px;
+}
+#celeste5{
+    width: 200px;
+    margin-bottom: 30px;
+}

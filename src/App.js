@@ -7,6 +7,7 @@ import Acerca from './pages/Acerca.jsx'
 import stylesheet from './css/app.css'
 import AlDi from './pages/AlDi.jsx'
 import Derechos from './pages/Derechos.jsx'
+import Celeste from './pages/Celeste.jsx'
 
 <style>{stylesheet}</style>
 export function App(){
@@ -20,6 +21,7 @@ export function App(){
             <Route path="acerca" element={<Acerca/>} />
             <Route path="aldi" element={<AlDi/>} />
             <Route path='derechos' element={<Derechos/>}/>
+            <Route path='celeste' element={<Celeste/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
