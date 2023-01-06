@@ -18,21 +18,21 @@
         "clases":"indProy"
         },
         {
-        "id":"derechos",
-        "alttext":"",
-        "titulo":"Conozco mis derechos para poder protegerlos",
-        "descrp":"Aprendé tus derechos como niño, niña o adolescente en Argentina",
-        "boton":"btnder",
-        "url":"derechos",
-        "clases":"indProy"
-        },
-        {
         "id":"celeste",
         "alttext":"",
         "titulo":"Celeste",
         "descrp":"Estudio de la usabilidad del juego con diferentes controles.",
         "boton":"btncel",
         "url":"celeste",
+        "clases":"indProy"
+        }
+        ,{
+        "id":"derechos",
+        "alttext":"",
+        "titulo":"Conozco mis derechos para poder protegerlos",
+        "descrp":"Aprendé tus derechos como niño, niña o adolescente en Argentina",
+        "boton":"btnder",
+        "url":"derechos",
         "clases":"indProy"
         }
 ]

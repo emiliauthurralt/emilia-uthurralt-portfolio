@@ -18,8 +18,6 @@ return (
             <Tecnologias/>
         </section>
         <section className='divSec'>
-            <h2>Intereses</h2>
-            <Games/>
         </section>
         
     </>

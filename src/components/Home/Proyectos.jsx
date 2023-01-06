@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 export function Proyectos() {
         return (
             <section id="proyectos" class="divSec ">
-                <h2>Proyectos</h2>
+                <h2>Casos de estudio</h2>
                 <div id="gridproy">
                     {DataProy.map((proy,index)=>{
                         const img = "./images/" + proy.id + ".png"
